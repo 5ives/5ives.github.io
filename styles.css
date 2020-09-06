@@ -1,3 +1,24 @@
+
+/* For smartphones */
+@media only screen and (max-device-width: 500px) {
+    .text {font-size: 11px}
+    .slideshow-container {
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 50px;
+        display: block;
+    }
+    .social-linked {
+        margin-left: 50px;
+        height: 10px;
+        width: 10px;
+        margin-top: 10px;
+    }
+}
+
 .head {
     color:black;
     font-family: 'Benne-Regular';
@@ -64,19 +85,7 @@ img {vertical-align: middle;}
     display: block;
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 500px) {
-    .text {font-size: 11px}
-    .slideshow-container {
-        width: 400px;
-        height: 400px;
-        overflow: hidden;
-        position: relative;
-        margin-top: -100px;
-        margin-left: 50px;
-        display: block;
-    }
-}
+
 
 /* Fading animation */
 .fade {

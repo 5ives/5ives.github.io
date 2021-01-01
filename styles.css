@@ -68,6 +68,20 @@
     text-align: center;
 }
 
+.project-list {
+    color:black;
+    font-family: 'Benne-Regular';
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 800px;
+    margin-left: 690px;
+    text-align: center;
+    margin-top: 200px;
+}
+
 .head {
     color:black;
     font-family: 'Benne-Regular';
@@ -187,7 +201,17 @@ button {
     border-width: 0.1cm;
     border-color: black;
     padding-top: 0.25cm;
-    /* padding: 0.2cm; */
+}
+
+.resume-button {
+    width: 250px;
+    font-family: 'Benne-Regular';
+    font-size: 0.8cm;
+    font-weight: bold;
+    border-width: 0.1cm;
+    border-color: black;
+    padding-top: 0.25cm;
+    margin-left: 130px;
 }
 
 @-webkit-keyframes fade {
